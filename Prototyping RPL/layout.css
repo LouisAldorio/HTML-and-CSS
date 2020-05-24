@@ -1,0 +1,51 @@
+.container {
+    margin: 0 auto;
+    width: 1400px;
+}
+.container:before, .container:after, .row:before, .row:after {
+    content: "";
+    display: table;
+}
+.container:after, .row:after {
+    clear: both;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    float: left;
+    margin: 5px 10px;
+}
+.col-1 {
+    width: 96px;
+}
+.col-2 {
+    width: 212px;
+}
+.col-3 {
+    width: 328px;
+}
+.col-4 {
+    width: 444px;
+}
+.col-5 {
+    width: 560px;
+}
+.col-6 {
+    width: 676px;
+}
+.col-7 {
+    width: 792px;
+}
+.col-8 {
+    width: 908px;
+}
+.col-9 {
+    width: 1024px;
+}
+.col-10 {
+    width: 1140px;
+}
+.col-11 {
+    width: 1256px;
+}
+.col-12 {
+    width: 1372px;
+}

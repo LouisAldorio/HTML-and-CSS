@@ -1,0 +1,116 @@
+body {
+    background-color: #e5e5e5;
+}
+table, td, th{
+    border: 1px solid #bbb;
+    width: 960px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-family: arial;
+}
+caption {
+    text-align: left;
+}
+thead tr {
+    background-color: #cacaca;
+}
+thead tr td ul {
+    margin: 0;
+    padding: 0;
+}
+thead tr td ul li {
+    list-style: none;
+    float: left;
+    padding: 5px 10px;
+}
+thead tr td ul li a {
+    font-family: arial;
+    text-decoration: none;
+    color: black;
+}
+thead tr td ul li:hover a {
+    color: #D3D3D3;
+}
+tbody tr th img {
+    float: right;
+}
+tbody tr th, td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+tbody tr:nth-child(odd){
+    background-color: rgba(100,100,100,0.2);
+}
+tbody th:nth-child(1), td:nth-child(1){
+    width: 150px;
+    text-align: center;
+}
+tbody th:nth-child(2){
+    width: 250px;
+    text-align: center;
+}
+tbody td:nth-child(2){
+    width: 250px;
+    text-align: left;
+}
+tbody th:nth-child(3), td:nth-child(3){
+    width: 100px;
+    text-align: center;
+}
+tbody tr:hover td{
+    background-color: rgba(80,185,255,0.1);
+}
+tbody tr:active {
+    background-color: #38F437;
+    color: white;
+    font-weight: bold;
+}
+tfoot tr td ul {
+    margin: 0;
+    padding: 0;
+}
+tfoot tr td ul li {
+    float: left;
+    list-style: none;
+    padding: 5px 5px;
+}
+tfoot .box {
+    width: 820px;
+    height: 15px;
+    border: 1px solid #7887B9;
+}
+tfoot .box .box2 {
+    height: 15px;
+    width: 300px;
+    background-color: #3868FF;
+}
+.icon1, .icon2, .icon3 , .icon4 {
+    height: 40px;
+    width:40px;
+    display: inline-block;
+    margin-top: 40px;
+}
+.icon1 {
+    background: url(images/icons.png) 0 0 no-repeat;
+}
+.icon1:hover {
+    background: url(images/icons.png) 0 100% no-repeat;
+}
+.icon2 {
+    background: url(images/icons.png) 32% 0 no-repeat;
+}
+.icon2:hover {
+    background: url(images/icons.png) 32% 100% no-repeat;
+}
+.icon3 {
+    background: url(images/icons.png) 65% 0 no-repeat;
+}
+.icon3:hover {
+    background: url(images/icons.png) 65% 100% no-repeat;
+}
+.icon4 {
+    background: url(images/icons.png) 100% 0 no-repeat;
+}
+.icon4:hover {
+    background: url(images/icons.png) 100% 100% no-repeat;
+}
